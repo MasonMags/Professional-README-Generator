@@ -82,8 +82,8 @@ function generateMarkdown(data) {
   ${data.usage}
   
   ${renderLicenseSection(data.license)}
-  ## [Contributing](#table-of-contents)
   
+  ## [Contributing](#table-of-contents)
   ${renderContributingSection(data.confirmContributers, data.contribute)}
   ## [Tests](#table-of-contents)
   ${data.test}
